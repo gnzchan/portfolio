@@ -1,10 +1,8 @@
-import { ContainedContent } from "./components/ContainedContent";
-import { Navbar } from "./components/Navbar";
+import { ContainedContent } from "@/components/ContainedContent";
 
-function App() {
+function WorkPage() {
   return (
     <div className="flex flex-col">
-      <Navbar />
       <ContainedContent>
         <div className="flex flex-col items-center justify-center">
           <div>
@@ -17,4 +15,4 @@ function App() {
   );
 }
 
-export default App;
+export default WorkPage;
