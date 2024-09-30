@@ -19,7 +19,7 @@ const ContainedContent = ({
       className={classMerge("flex items-center justify-center", className)}
       style={style}
     >
-      <div className="w-full max-w-[1200px]">{children}</div>
+      <div className="w-full max-w-[1200px] px-12">{children}</div>
     </div>
   );
 };
