@@ -13,7 +13,7 @@ function WorkPage() {
       </ContainedContent>
 
       <ContainedContent>
-        <p>work</p>
+        <p>work experience</p>
       </ContainedContent>
     </div>
   );
